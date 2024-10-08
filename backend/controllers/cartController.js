@@ -17,7 +17,7 @@ const addToCart = async (req, res) => {
       console.log(error);
       res.json({ success: false, message: "Error" })
    }
-}
+}   
 
 // remove food from user cart
 const removeFromCart = async (req, res) => {
